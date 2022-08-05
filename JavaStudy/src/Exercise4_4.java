@@ -12,8 +12,7 @@ public class Exercise4_4 {
 			
 			if(sum >=100) {
 				break;
-			}
-			
+			}	
 			}
 		System.out.println("num: " + num);
 		}

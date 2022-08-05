@@ -1,5 +1,6 @@
 
 public class Exercise4_2 {
+	
 
 	public static void main(String[] args) {
 		
@@ -13,5 +14,4 @@ public class Exercise4_2 {
 		}
 		System.out.println("총합은 " + sum);
 	}
-
 }
