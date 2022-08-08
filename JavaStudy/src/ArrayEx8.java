@@ -13,8 +13,8 @@ public class ArrayEx8 {
 		for(int i=0; i<6; i++) {
 			j = (int)(Math.random()*45);
 			temp = ball[i];
-			ball[i] = ball[j];
-			ball[j] = temp;
+			ball[i] = ball[j];	
+			ball[j] = temp;	
 		}
 		for(int i=0; i<6; i++) {
 			System.out.printf("ball[%d] = %d\n", i, ball[i]);
