@@ -20,7 +20,7 @@ public static void main(String args[]) {
 		coinNum = money / coinUnit[i];    //6 = 3120 / 500
 		
 		if(coin[i] >= coinNum) {	//필요한 코인보다 coin의 개수가 더 많거나 같으면 
-			coin[i] -= coinNum;		//가지고 있는 코인을 뺀다.
+			coin[i] -= coinNum;		//가지고 있는 코인을 뺀 다.
 		}
 		else{
 			coinNum = coin[i];		//필요 코인 보다 가지고 있는 코인 개수가 적으면

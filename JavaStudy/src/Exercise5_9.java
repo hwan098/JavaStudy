@@ -9,7 +9,7 @@ public class Exercise5_9 {
 				{'*', '*', '*', '*', '*' },
 				{'*', '*', '*', '*', '*' }
 		};
-		char[][] result = new char[star[0].length][star.length];
+		char[][] result = new char[star[0].length][star.length]; //4,3
 		
 		for(int i = 0; i < star.length; i++) {
 			for(int j = 0; j < star[i].length; j++) {
@@ -37,3 +37,6 @@ public class Exercise5_9 {
 	}
 
 }
+
+//for로 배열을 어디서부터 어떻게 읽을지
+//탐색하고 어디서 넣어야할지가 중요함

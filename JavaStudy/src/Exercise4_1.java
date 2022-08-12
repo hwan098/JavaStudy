@@ -12,7 +12,9 @@ public class Exercise4_1 {
 				
 		System.out.println("c" + ch + "h");
 		
-		if(10<x && x<20) System.out.println("True");
+		if(10<x && x<20) {
+			System.out.println("True");
+		}
 		if(ch==' ' || ch=='\t') {
 			System.out.println("False");
 		}

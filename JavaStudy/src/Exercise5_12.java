@@ -26,7 +26,7 @@ public class Exercise5_12 {
 				System.out.printf("틀렸습니다. 정답은 %s입니다.\n\n", words[i][1]);
 			}
 			if(i+1 == words.length) {
-			System.out.printf("전체 %d문제 중 %d문제 맞추셨습니다.", words.length, count);	
+				System.out.printf("전체 %d문제 중 %d문제 맞추셨습니다.", words.length, count);	
 			}
 		
 		
