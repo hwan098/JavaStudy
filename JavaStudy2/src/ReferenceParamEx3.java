@@ -7,6 +7,7 @@ public class ReferenceParamEx3 {
 		printArr(arr);
 		sortArr(arr);
 		printArr(arr);
+		printArr(arr);
 		//System.out.println("sum = " + sumArr(arr));
 	}
 
