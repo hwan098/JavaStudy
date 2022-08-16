@@ -8,7 +8,6 @@ public class Exercise6_19{
 		String str = "ABC123";
 		System.out.println(str);
 		change(str);
-	
 		System.out.println("After change:"+str);
 	}
 }
