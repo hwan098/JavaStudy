@@ -1,3 +1,4 @@
+//연습문제 6-22 (문자열이 숫자인지 확인하기)
 
 public class Exercise6_22 {
 	static boolean isNumber(String str) {

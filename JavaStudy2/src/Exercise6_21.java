@@ -1,3 +1,4 @@
+//연습문제6-21 (tv클래스를 로직대로 완성하기)
 
 class MyTv {
 	boolean isPowerOn;
