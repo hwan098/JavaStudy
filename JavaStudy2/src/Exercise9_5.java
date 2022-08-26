@@ -18,6 +18,7 @@ public class Exercise9_5 {
 	}
 
 	public static void main(String[] args) {
+		
 		System.out.println(count("12345AB12AB345AB","AB"));
 		System.out.println(count("12345","AB"));
 	}
