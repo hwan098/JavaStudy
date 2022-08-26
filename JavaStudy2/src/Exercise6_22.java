@@ -5,12 +5,14 @@ public class Exercise6_22 {
 		try {
 			Integer.parseInt(str);
 			return true;
-			}
+		}
 		catch(NumberFormatException e) {
 			return false;
 		}
 	}
-			
+/*
+ 
+ * */
 		
 	
 	public static void main(String[] args) {

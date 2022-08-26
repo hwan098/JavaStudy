@@ -3,11 +3,11 @@ public class Exercise6_20{
 	
 	static int[] shuffle(int[] arr) {
 		for(int i=0; i<arr.length; i++) {
-				int randomNum = (int)(Math.random() * arr.length);
+			int randomNum = (int)(Math.random() * arr.length);
 				
-				int tmp = arr[i];
-				arr[i] = arr[randomNum];
-				arr[randomNum] = tmp;
+			int tmp = arr[i];
+			arr[i] = arr[randomNum];
+			arr[randomNum] = tmp;
 				
 		}
 		return arr;

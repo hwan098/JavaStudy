@@ -82,7 +82,7 @@ public class Exercise7_22 {
 	static double sumArea(Shape[] arr) {	//왜 static이 쓰이는지 --> 객체를 만들필요가 없으므로
 		double sum = 0;
 		for(int i=0; i<arr.length; i++) {
-				sum += arr[i].calcArea();
+			sum += arr[i].calcArea();
 		}
 		return sum;
 	}

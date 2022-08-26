@@ -3,8 +3,8 @@
 import java.util.*;
 
 public class Exercise6_23 {
-	  static int max(int[] arr) {
-		  int max = 0;
+	 static int max(int[] arr) {
+		 int max = 0;
 		 if(arr == null || arr.length == 0) {
 			 return -999999;
 		 }
@@ -13,7 +13,7 @@ public class Exercise6_23 {
 			 max = arr[arr.length-1];
 		 }
 		 return max;
-	  }
+	 }
 	public static void main(String[] args) {
 
 		int[] data = {3, 2, 9, 4, 7};

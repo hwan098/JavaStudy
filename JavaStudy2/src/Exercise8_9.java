@@ -10,7 +10,7 @@ class UnsupportedFuctionException extends RuntimeException {
 	}
 	public int getErrCode() { // . 에러 코드를 얻을 수 있는 메서드도 추가했다
 		return ERR_CODE; // getMessage() . 이 메서드는 주로 와 함께 사용될 것이다
-	}
+	} 
 	public String getMessage() { // Exception getMeesage() . 의 를 오버라이딩한다
 		return getErrCode()+  super.getMessage();
 	}

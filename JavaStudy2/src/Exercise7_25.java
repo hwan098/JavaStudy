@@ -33,6 +33,7 @@ public class Exercise7_25 {
 		//Outer o = new Outer();				//외부클래스의 static멤버이므로 객체를 만들지 않아도 된다.
 		Outer.Inner i = new Outer.Inner();
 		System.out.println(i.iv);
+		System.out.println(new Outer.Inner().iv);
 
 	}
 

@@ -2,8 +2,8 @@
 //Q
 
 class SutdaDeck {
-	final int CARD_NUM = 20;	//카드의 개수는 20개 고정 
-	SutdaCards[] cards = new SutdaCards[CARD_NUM];	//객체배열 생성
+	final int CARD_NUM = 20;									//카드의 개수는 20개 고정 
+	SutdaCards[] cards = new SutdaCards[CARD_NUM];				//객체배열 생성
 	
 	SutdaDeck() {
 		for(int i=1; i <= (cards.length/2); i++) {				// 섯다카드 20장을 담는 배열 초기화(0~9인덱스)
@@ -14,10 +14,10 @@ class SutdaDeck {
 			cards[i-1] = new SutdaCards(i-10, false);			//1, 3, 8 둘 중에 한 장만 kwang=true이므로 해당 반복문에서는 false 
 		}	
 	}
-	 void shuffle(){	//반환할 값이 없으므로 void
+	 void shuffle(){											//반환할 값이 없으므로 void
 		for(int i=0; i<cards.length; i++) {
 			int randomNum = (int)(Math.random()*cards.length);
-			SutdaCards tmp;					//int 형이 아닌 왜 SutdaCards tmp가 되어야 하는지--> int tmp일 때 실행이 안됐다.
+			SutdaCards tmp;										//int 형이 아닌 왜 SutdaCards tmp가 되어야 하는지--> int tmp일 때 실행이 안됐다.
 			tmp = cards[i];
 			cards[i] = cards[randomNum];
 			cards[randomNum] = tmp;

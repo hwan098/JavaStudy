@@ -31,8 +31,8 @@ class Student{
 	}
 	
 	float getAverage(){
-		float average = ((kor + eng + math) / 3f) * 10;
-		float result = Math.round(average) / 10f;
+		float average = ((float)(kor + eng + math) / 3f) * 100;
+		float result = Math.round(average) / 100f;
 		return result;
 	}
 	
