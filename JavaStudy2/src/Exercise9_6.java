@@ -13,15 +13,21 @@ public class Exercise9_6 {
 			src = src.substring(0, length);
 			return src;
 		}
+		// 빈 칸
 		else {
 			char[] charArr = new char[length];
 			char[] charArr2 = new char[length];
 			
+			
 			for(int i=0; i<length; i++) {
 				charArr[i] = '0';
 			}
-			System.arraycopy(charArr, 0, length-src.length(), length, src.length());
-			String changeStr = new String(charArr2);
+			for(int i=0; i<src.length(); i++) {
+				charArr2[i] = src.charAt(i);
+			}
+			
+			System.arraycopy(charArr2, 0, charArr, src.length(), src.length());
+			String changeStr = new String(charArr);
 			return changeStr;
 		}	
 	}
@@ -31,6 +37,7 @@ public class Exercise9_6 {
 	public static void main(String[] args) {
 		
 		String src = "12345";
+		
 		System.out.println(fillZero(src,10));
 		System.out.println(fillZero(src,-1));
 		System.out.println(fillZero(src,3));
