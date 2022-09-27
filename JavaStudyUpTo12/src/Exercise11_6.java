@@ -1,3 +1,5 @@
+//연습문제 11-6
+
 import java.util.*;
 
 class Student implements Comparable {
