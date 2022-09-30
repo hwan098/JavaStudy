@@ -58,6 +58,8 @@ class Exercise11_7 {
 		list.add(new Student("김자바",1,2,80,80,90)); 
 		Collections.sort(list, new BanNoAscending());
 		Iterator it = list.iterator();
+		
+		//읽어올 다음 요소가 있는지 확인하고 있을 때까지 다음요소를 읽어오기
 		while(it.hasNext())
 			System.out.println(it.next());
 	}
