@@ -14,7 +14,7 @@ public class HashSetEx3 {
 	}
 }
 
- public class Person {
+class Person {
 	String name;
 	int age;
 
