@@ -1,4 +1,4 @@
-import java.util.*;
+/*import java.util.*;
 
 class Student2 {
 	String name;
@@ -64,3 +64,4 @@ class Exercise11_7 {
 			System.out.println(it.next());
 	}
 }
+*/
