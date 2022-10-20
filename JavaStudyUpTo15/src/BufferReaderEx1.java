@@ -4,7 +4,7 @@ public class BufferReaderEx1 {
 
 	public static void main(String[] args) {
 		try {
-			FileReader fr = new FileReader("BufferReaderEx1.java");
+			FileReader fr = new FileReader("C:\\Users\\LG\\git\\JavaStudy\\JavaStudyUpTo15\\src\\BufferReaderEx1.java");
 			BufferedReader br = new BufferedReader(fr);
 			
 			String line = "";
